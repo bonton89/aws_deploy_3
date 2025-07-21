@@ -70,7 +70,7 @@ pg = st.navigation(
 )
 
 # --- SHARED ON ALL PAGES ---
-st.sidebar.markdown("  © infosys bpm  ")
+#st.sidebar.markdown("  © infosys bpm  ")
 # --- Logout Button in the Sidebar ---
 if st.sidebar.button("Logout"):
     st.session_state.logged_in = False
